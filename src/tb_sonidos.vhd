@@ -21,7 +21,7 @@ begin
 
     UUT: entity work.controladora_audio
     port map (
-        clk_100MHz => tb_clk,
+        clk => tb_clk,
         reset      => tb_reset,
         user_hit   => tb_user_hit,
         pwm_audio  => tb_pwm,
